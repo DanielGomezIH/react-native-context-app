@@ -2,7 +2,7 @@
   "exportall.config.folderListener": [
     "/src/presentation/components/shared",
     "/src/presentation/components",
-    "/src/routes",
-    "/src/presentation/screens"
+    "/src/presentation/screens",
+    "/src/navigators"
   ]
 }

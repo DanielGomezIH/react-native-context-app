@@ -1,11 +1,10 @@
-import {View, Text, StyleSheet} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import {BottomTabsNavigator} from './navigators';
 
 export const Main = () => {
   return (
-    <View>
-      <Text>Main</Text>
-    </View>
+    <NavigationContainer>
+      <BottomTabsNavigator />
+    </NavigationContainer>
   );
 };
-
-const styles = StyleSheet.create({});
